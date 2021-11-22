@@ -1,0 +1,25 @@
+{
+  "name": "cryptoapi",
+  "version": "1.0.0",
+  "description": "API for cryptocurrency data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GraceMatson/CryptoAPI.git"
+  },
+  "author": "Grace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GraceMatson/CryptoAPI/issues"
+  },
+  "homepage": "https://github.com/GraceMatson/CryptoAPI#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
