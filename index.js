@@ -69,6 +69,3 @@ app.get('/crypto/:cryptoId', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`));
-app.get('/', (req, res) => {
-    res.json('Welcome to the API');
-});
